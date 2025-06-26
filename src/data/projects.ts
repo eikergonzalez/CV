@@ -1,0 +1,58 @@
+import { Project } from "../types";
+
+export const projects: Project[] = [
+  {
+    id: "multilingual-ecommerce",
+    title: "Multilingual E-commerce Platform",
+    description: "A full-stack e-commerce platform with support for 8 languages and region-specific payment methods. Built with Next.js, TypeScript, and Tailwind CSS with a Node.js backend.",
+    image: "https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Stripe", "i18next"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+  {
+    id: "language-learning-app",
+    title: "Interactive Language Learning App",
+    description: "A mobile application for learning languages through interactive exercises, featuring speech recognition and personalized learning paths. Developed with React Native and Firebase.",
+    image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["React Native", "Firebase", "Redux", "TensorFlow.js"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+  {
+    id: "real-time-translation",
+    title: "Real-time Translation API",
+    description: "A high-performance API for real-time text translation across 20+ languages, utilizing machine learning for context-aware translations. Built with Python, FastAPI, and deployed on AWS.",
+    image: "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["Python", "FastAPI", "AWS Lambda", "Docker", "Machine Learning"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+  {
+    id: "international-finance-dashboard",
+    title: "International Finance Dashboard",
+    description: "A comprehensive dashboard for international finance tracking, with currency conversion, tax calculation, and reporting features. Built with Vue.js and Django.",
+    image: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["Vue.js", "Django", "PostgreSQL", "D3.js", "Chart.js"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+  {
+    id: "localization-management",
+    title: "Localization Management System",
+    description: "A platform for managing localization resources across multiple projects, including automatic translation suggestions and workflow management. Built with Angular and Java Spring Boot.",
+    image: "https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["Angular", "Java Spring Boot", "MySQL", "RxJS", "Material UI"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+  {
+    id: "cross-cultural-calendar",
+    title: "Cross-Cultural Calendar App",
+    description: "A calendar application that integrates holidays and important dates from multiple cultures and regions, with customizable notifications. Built with Flutter and Firebase.",
+    image: "https://images.pexels.com/photos/636246/pexels-photo-636246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    technologies: ["Flutter", "Dart", "Firebase", "Google Calendar API"],
+    liveUrl: "#",
+    sourceUrl: "#",
+  },
+];
