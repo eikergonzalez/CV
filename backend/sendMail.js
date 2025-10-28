@@ -33,9 +33,11 @@ app.post('/api/contact', async (req, res) => {
       to: 'support@eikergonzalez.com',
       subject: 'Nuevo mensaje de contacto',
       text: message,
-      html: `<p><b>Nombre:</b> ${name}</p>
-             <p><b>Email:</b> ${email}</p>
-             <p><b>Mensaje:</b><br/>${message}</p>`,
+      html: `
+        <p><b>Nombre:</b> ${name}</p>
+        <p><b>Email:</b> ${email}</p>
+        <p><b>Mensaje:</b><br/>${message}</p>
+      `,
     });
     res.status(200).json({ ok: true });
   } catch (error) {
@@ -43,4 +45,4 @@ app.post('/api/contact', async (req, res) => {
   }
 });
 
-app.listen(5000, () => console.log('Servidor escuchando en puerto 5000'));
+app.listen(5001, () => console.log('Servidor escuchando en puerto 5000'));

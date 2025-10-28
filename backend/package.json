@@ -4,7 +4,8 @@
   "main": "sendMail.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon sendMail.js"
+    "dev": "nodemon sendMail.js",
+    "start": "sendMail.js"
   },
   "keywords": [],
   "author": "",
