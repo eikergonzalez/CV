@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon sendMail.js",
-    "start": "sendMail.js"
+    "start": "node sendMail.js"
   },
   "keywords": [],
   "author": "",
