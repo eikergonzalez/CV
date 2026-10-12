@@ -37,7 +37,7 @@ export const timelineItemsEs: TimelineItem[] = [
     id: "4",
     title: "Desarrollador",
     organization: "Softech Consultores - Venezuela",
-    period: "2014 - 2015",
+    period: "2015 - 2015",
     description: [
       "Desarrollo de funcionalidades en sistema Profit Plus.",
       "Creación de reportes con Crystal Reports.",
@@ -49,7 +49,7 @@ export const timelineItemsEs: TimelineItem[] = [
     id: "5",
     title: "Desarrollador",
     organization: "Antilope Lab - Venezuela",
-    period: "2016 - 2020",
+    period: "2015 - 2017",
     description: [
       "Sistema de inscripción nacional para Fe y Alegría.",
       "App de solicitud de pedidos para distribuidoras de alimentos.",
@@ -62,7 +62,7 @@ export const timelineItemsEs: TimelineItem[] = [
     id: "6",
     title: "Desarrollador",
     organization: "Digisalud - Venezuela",
-    period: "2018 - 2019",
+    period: "2017 - 2018",
     description: [
       "App móvil para registro offline y sincronización de pesquisas en salud.",
       "Desarrollo web para cargas masivas desde Excel.",
@@ -85,33 +85,13 @@ export const timelineItemsEs: TimelineItem[] = [
     id: "8",
     title: "Desarrollador Full Stack & Líder Técnico",
     organization: "Omnix Solutions - Usa",
-    period: "2020 - 2022",
+    period: "2021 - 2022",
     description: [
       "Desarrollo de aplicación web de gestión de recursos humanos.",
       "Migración de Laravel a ReactJS y desarrollo de API en NextJS.",
-      "Tecnologías: Laravel 7, MySQL, PHP 7.4, JavaScript, jQuery, ReactJS, NextJS, TypeORM, Express."
-    ],
-    type: "work",
-  },
-  {
-    id: "9",
-    title: "Desarrollador Full Stack",
-    organization: "Proyecto Freelance - Chile",
-    period: "2021 - 2022",
-    description: [
       "Sistema de creación de documentos y contratos con firma digital para SinNorataria.",
-      "Tecnologías: ReactJS, Redux Toolkit, NestJS"
-    ],
-    type: "work",
-  },
-  {
-    id: "10",
-    title: "Desarrollador Full Stack",
-    organization: "Proyecto Freelance - Chile",
-    period: "2022",
-    description: [
       "Desarrollo de CRM para distribuidora DonHuesillo.",
-      "Frontend: ReactJS con Vite y Redux Toolkit; API: Laravel 9, MySQL",
+      "Tecnologías: Laravel 7, MySQL, PHP 7.4, JavaScript, jQuery, ReactJS, NextJS, TypeORM, Express."
     ],
     type: "work",
   },
@@ -131,7 +111,7 @@ export const timelineItemsEs: TimelineItem[] = [
     id: "12",
     title: "Desarrollador Full Stack",
     organization: "Ceiboo Software Factory - Argentina",
-    period: "2022 - 2023",
+    period: "2023 - 2024",
     description: [
       "Desarrollo de un sistema de turnos para la secretaría de turismo de Gualeguaychú.",
       "Tecnologías: PHP nativo, Laravel, NestJS, React, MySQL, React Native (Expo).",
@@ -142,7 +122,7 @@ export const timelineItemsEs: TimelineItem[] = [
     id: "13",
     title: "Desarrollador Full Stack",
     organization: "Nexo IT - Chile",
-    period: "2024 - Atualidad",
+    period: "2024 - 2026",
     description: [
       "Mantenimiento y mejoras a portales y aplicaciones móviles con Nuxt y React Native (Expo)",
       "Integración de pasarelas de pago (Transbank SDK, Stripe).",
@@ -193,7 +173,7 @@ export const timelineItemsEn: TimelineItem[] = [
     id: "4",
     title: "Developer",
     organization: "Softech Consultores - Venezuela",
-    period: "2014 - 2015",
+    period: "2015 - 2015",
     description: [
       "Developed features in the Profit Plus system.",
       "Created reports using Crystal Reports.",
@@ -205,7 +185,7 @@ export const timelineItemsEn: TimelineItem[] = [
     id: "5",
     title: "Developer",
     organization: "Antilope Lab - Venezuela",
-    period: "2016 - 2020",
+    period: "2015 - 2017",
     description: [
       "Developed a national enrollment system for Fe y Alegría.",
       "Created an order request app for food distributors.",
@@ -218,7 +198,7 @@ export const timelineItemsEn: TimelineItem[] = [
     id: "6",
     title: "Developer",
     organization: "Digisalud - Venezuela",
-    period: "2018 - 2019",
+    period: "2017 - 2018",
     description: [
       "Developed a mobile app for offline data collection and synchronization in health surveys.",
       "Created a web application for bulk uploads from Excel.",
@@ -241,33 +221,13 @@ export const timelineItemsEn: TimelineItem[] = [
     id: "8",
     title: "Full Stack Developer & Technical Leader",
     organization: "Omnix Solutions - USA",
-    period: "2020 - 2022",
+    period: "2021 - 2022",
     description: [
       "Developed a web application for human resources management.",
       "Migrated from Laravel to ReactJS and developed an API in NextJS.",
-      "Technologies: Laravel 7, MySQL, PHP 7.4, JavaScript, jQuery, ReactJS, NextJS, TypeORM, Express."
-    ],
-    type: "work",
-  },
-  {
-    id: "9",
-    title: "Full Stack Developer",
-    organization: "Freelance Project - Chile",
-    period: "2021 - 2022",
-    description: [
       "Developed a document and contract creation system with digital signature for SinNorataria.",
-      "Technologies: ReactJS, Redux Toolkit, NestJS"
-    ],
-    type: "work",
-  },
-  {
-    id: "10",
-    title: "Full Stack Developer",
-    organization: "Freelance Project - Chile",
-    period: "2022",
-    description: [
       "Developed a CRM for the distributor DonHuesillo.",
-      "Frontend: ReactJS with Vite and Redux Toolkit; API: Laravel 9, MySQL",
+      "Technologies: Laravel 7, MySQL, PHP 7.4, JavaScript, jQuery, ReactJS, NextJS, TypeORM, Express."
     ],
     type: "work",
   },
@@ -287,7 +247,7 @@ export const timelineItemsEn: TimelineItem[] = [
     id: "12",
     title: "Full Stack Developer",
     organization: "Ceiboo Software Factory - Argentina",
-    period: "2022 - 2023",
+    period: "2023 - 2024",
     description: [
       "Developed an appointment scheduling system for the tourism department of Gualeguaychú.",
       "Technologies: PHP Native, Laravel, NestJS, React, MySQL, React Native (Expo).",
@@ -298,7 +258,7 @@ export const timelineItemsEn: TimelineItem[] = [
     id: "13",
     title: "Full Stack Developer",
     organization: "Nexo IT - Chile",
-    period: "2024 - Present",
+    period: "2024 - 2026",
     description: [
       "Maintaining and improving portals and mobile applications with Nuxt and React Native (Expo)",
       "Integrating payment gateways (Transbank SDK, Stripe).",
