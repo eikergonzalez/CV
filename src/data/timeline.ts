@@ -1,272 +1,31 @@
 import { TimelineItem } from "../types";
 
 export const timelineItemsEs: TimelineItem[] = [
-  {
-    id: "1",
-    title: "Técnico Superior en Informática",
-    organization: "Instituto Universitario de Tecnología de Administración Industrial (IUTA)",
-    period: "2006 - 2010",
-    description: [
-      "",
-    ],
-    type: "education",
-  },
-  {
-    id: "2",
-    title: "Bachillerato en Ciencias",
-    organization: "Unidad Educativa Nacional Pedro Emilio Coll",
-    period: "2000 - 2004",
-    description: [
-      "",
-    ],
-    type: "education",
-  },
-  {
-    id: "3",
-    title: "Desarrollador",
-    organization: "Datapronet Consultores - Venezuela",
-    period: "2011 - 2014",
-    description: [
-      "Soporte y desarrollo de módulos para el sistema Adaptapro.",
-      "Soporte técnico para tiendas Zara, Pull & Bear y Bershka (sistemas POS y SAP).",
-      "Tecnologías: DPXBASE, MySQL, SQL Server, Visual Basic 6, VB.NET, C#."
-    ],
-    type: "work",
-  },
-  {
-    id: "4",
-    title: "Desarrollador",
-    organization: "Softech Consultores - Venezuela",
-    period: "2015 - 2015",
-    description: [
-      "Desarrollo de funcionalidades en sistema Profit Plus.",
-      "Creación de reportes con Crystal Reports.",
-      "Tecnologías: Visual FoxPro, C#, SQL Server, Crystal Reports."
-    ],
-    type: "work",
-  },
-  {
-    id: "5",
-    title: "Desarrollador",
-    organization: "Antilope Lab - Venezuela",
-    period: "2015 - 2017",
-    description: [
-      "Sistema de inscripción nacional para Fe y Alegría.",
-      "App de solicitud de pedidos para distribuidoras de alimentos.",
-      "App desktop offline con sincronización para registros médicos.",
-      "Tecnologías: Laravel 7, MySQL, JavaScript, jQuery, Flutter."
-    ],
-    type: "work",
-  },
-  {
-    id: "6",
-    title: "Desarrollador",
-    organization: "Digisalud - Venezuela",
-    period: "2017 - 2018",
-    description: [
-      "App móvil para registro offline y sincronización de pesquisas en salud.",
-      "Desarrollo web para cargas masivas desde Excel.",
-      "Tecnologías: Flutter, MySQL, PHP Nativo, JavaScript, jQuery."
-    ],
-    type: "work",
-  },
-  {
-    id: "7",
-    title: "Desarrollador ",
-    organization: "Gestión de Emprendimiento Deportivo (SportClub) - Argentina",
-    period: "2019 - 2021",
-    description: [
-      "Soporte y desarrollo de sistema interno de pagos y registros de socios.",
-      "Tecnologías: Laravel 7, MySQL, MongoDB, Flutter, JavaScript, jQuery, NodeJS, React Native."
-    ],
-    type: "work",
-  },
-  {
-    id: "8",
-    title: "Desarrollador Full Stack & Líder Técnico",
-    organization: "Omnix Solutions - Usa",
-    period: "2021 - 2022",
-    description: [
-      "Desarrollo de aplicación web de gestión de recursos humanos.",
-      "Migración de Laravel a ReactJS y desarrollo de API en NextJS.",
-      "Sistema de creación de documentos y contratos con firma digital para SinNorataria.",
-      "Desarrollo de CRM para distribuidora DonHuesillo.",
-      "Tecnologías: Laravel 7, MySQL, PHP 7.4, JavaScript, jQuery, ReactJS, NextJS, TypeORM, Express."
-    ],
-    type: "work",
-  },
-  {
-    id: "11",
-    title: "Desarrollador Full Stack",
-    organization: "Smartway - Argentina",
-    period: "2022 - 2023",
-    description: [
-      "Desarrollo de ecommerce en PrestaShop para la Secretaría de Agricultura, Ganadería y Pesca de Argentina.",
-      "Desarrollo de sistema de video consultas médicas para organizaciones gubernamentales y ONG.",
-      "Tecnologías: ReactJS, React Native (Expo), MySQL, WebSockets, PHP, Symfony, TypeScript, Jitsi Meet, NestJS, NodeJS, MongoDB, Docker.",
-    ],
-    type: "work",
-  },
-  {
-    id: "12",
-    title: "Desarrollador Full Stack",
-    organization: "Ceiboo Software Factory - Argentina",
-    period: "2023 - 2024",
-    description: [
-      "Desarrollo de un sistema de turnos para la secretaría de turismo de Gualeguaychú.",
-      "Tecnologías: PHP nativo, Laravel, NestJS, React, MySQL, React Native (Expo).",
-    ],
-    type: "work",
-  },
-  {
-    id: "13",
-    title: "Desarrollador Full Stack",
-    organization: "Nexo IT - Chile",
-    period: "2024 - 2026",
-    description: [
-      "Mantenimiento y mejoras a portales y aplicaciones móviles con Nuxt y React Native (Expo)",
-      "Integración de pasarelas de pago (Transbank SDK, Stripe).",
-      "Desarrollo de ecommerce con ReactJS y backend en Nuxt (Vue2).",
-      "Desarrolo de un servicio en Python para consultar estados de cuentas de clientes y generar .zip con archivos de texto.",
-      "Desarrollo de un microfront en Angular 18 para consultar estados de cuentas de clientes.",
-      "Tecnologías: PHP nativo, Nuxt 2, ReactJs, MySQL, React Native (Expo)., Oracle, Python, Angular 18.",
-    ],
-    type: "work",
-  },
-  
+  { id: "edu1", title: "Técnico Superior en Informática", organization: "Instituto Universitario de Tecnología de Administración Industrial (IUTA)", period: "2007 - 2010", description: [], type: "education" },
+  { id: "edu2", title: "Bachiller en Ciencias", organization: "Unidad Educativa Nacional Pedro Emilio Coll", period: "2000 - 2004", description: [], type: "education" },
+  { id: "datapronet", title: "Desarrollador", organization: "Datapronet Consultores · Venezuela", period: "Jun 2011 - Dic 2014", description: ["Desarrollo y soporte de módulos del sistema Adaptapro.", "Soporte a sistemas POS y SAP para tiendas Zara, Pull & Bear y Bershka.", "Tecnologías: DPXBASE, MySQL, SQL Server, VB6, VB.NET y C#."], type: "work" },
+  { id: "softech", title: "Desarrollador", organization: "Softech Consultores · Venezuela", period: "Ene 2014 - Feb 2015", description: ["Desarrollo y mantenimiento de funcionalidades para Profit Plus.", "Creación de reportes con Crystal Reports.", "Tecnologías: Visual FoxPro, C#, SQL Server y Crystal Reports."], type: "work" },
+  { id: "antilope", title: "Desarrollador", organization: "Antilope Lab · Venezuela", period: "Mar 2016 - Jul 2020", description: ["Participación en un sistema nacional de inscripción para Fe y Alegría.", "Aplicación para solicitudes de pedidos de distribuidoras de alimentos.", "Aplicación de escritorio offline para registros médicos con sincronización.", "Tecnologías: PHP, Laravel, MySQL, JavaScript, jQuery y Flutter."], type: "work" },
+  { id: "digisalud", title: "Desarrollador", organization: "DigiSalud · Venezuela", period: "Ene 2018 - Dic 2018", description: ["Aplicación móvil para registro offline y sincronización de pesquisas de salud.", "Aplicación web para cargas masivas desde Excel.", "Tecnologías: Flutter, Dart, PHP, MySQL, JavaScript y jQuery."], type: "work" },
+  { id: "sportclub", title: "Desarrollador", organization: "SportClub · Argentina", period: "Ene 2020 - Nov 2021", description: ["Soporte y desarrollo de sistemas internos para pagos y registro de socios.", "Tecnologías: Laravel 7, PHP, MySQL, MongoDB, JavaScript, jQuery, Node.js, React Native y Flutter."], type: "work" },
+  { id: "omnix", title: "Software Engineer · Colaboración por proyectos", organization: "Omnix Solutions · Estados Unidos", period: "Dic 2020 - Oct 2022", description: ["Trabajo por proyectos en modernización de una plataforma de gestión de recursos humanos y evolución de sistemas Laravel hacia interfaces React/Next.js y APIs.", "También participé en proyectos de generación de documentos y firma digital y en un CRM para una distribuidora.", "Tecnologías según proyecto: Laravel, PHP, MySQL, JavaScript, React, Next.js, TypeORM y Express."], type: "work" },
+  { id: "freelance", title: "Desarrollador Full Stack · Freelance", organization: "Trabajo independiente", period: "Nov 2021 - Ago 2022", description: ["Desarrollo de soluciones web, CRM y automatización de documentos, incluyendo generación de documentos y flujos de firma electrónica."], type: "work" },
+  { id: "smartway", title: "Senior Software Developer", organization: "Smartway · Argentina", period: "Ene 2022 - Jun 2023", description: ["Desarrollo de soluciones de ecommerce y telemedicina.", "Implementación de videoconsultas e integración de comunicación en tiempo real con WebRTC/Jitsi y WebSockets.", "Tecnologías: React, React Native, NestJS, Node.js, PHP, MySQL, MongoDB y Docker."], type: "work" },
+  { id: "ceiboo", title: "Full Stack Developer", organization: "Ceiboo Software Factory · Argentina", period: "Jun 2023 - Abr 2024", description: ["Desarrollo de un sistema de turnos para la Secretaría de Turismo de Gualeguaychú."], type: "work" },
+  { id: "nexo", title: "Senior Full Stack Developer", organization: "Nexo-IT Consultores · Chile", period: "Abr 2024 - Jun 2026", description: ["Mantenimiento y desarrollo de portales y aplicaciones móviles con React Native/Expo, React y Nuxt.", "Integración de pagos con Stripe y Transbank.", "Desarrollo de servicios Python y microfrontends Angular 18.", "Tecnologías según proyecto: React, React Native, Nuxt, PHP, Python, Angular, MySQL y Oracle."], type: "work" },
 ];
 
 export const timelineItemsEn: TimelineItem[] = [
-  {
-    id: "1",
-    title: "Associate Degree in Computer Science.",
-    organization: "Instituto Universitario de Tecnología de Administración Industrial (IUTA), ",
-    period: "2006 - 2010",
-    description: [
-      "",
-    ],
-    type: "education",
-  },
-  {
-    id: "2",
-    title: "High School Diploma in Science",
-    organization: "Unidad Educativa Nacional Pedro Emilio Coll",
-    period: "2000 - 2004",
-    description: [
-      "",
-    ],
-    type: "education",
-  },
-  {
-    id: "3",
-    title: "Developer",
-    organization: "Datapronet Consultores - Venezuela",
-    period: "2011 - 2014",
-    description: [
-      "Supported and developed modules for the Adaptapro system.",
-      "Provided IT support for Zara, Pull & Bear, and Bershka stores (POS and SAP systems).",
-      "Technologies: DPXBASE, MySQL, SQL Server, Visual Basic 6, VB.NET, C#."
-    ],
-    type: "work",
-  },
-  {
-    id: "4",
-    title: "Developer",
-    organization: "Softech Consultores - Venezuela",
-    period: "2015 - 2015",
-    description: [
-      "Developed features in the Profit Plus system.",
-      "Created reports using Crystal Reports.",
-      "Technologies: Visual FoxPro, C#, SQL Server, Crystal Reports."
-    ],
-    type: "work",
-  },
-  {
-    id: "5",
-    title: "Developer",
-    organization: "Antilope Lab - Venezuela",
-    period: "2015 - 2017",
-    description: [
-      "Developed a national enrollment system for Fe y Alegría.",
-      "Created an order request app for food distributors.",
-      "Built an offline desktop app with synchronization for medical records.",
-      "Technologies: Laravel 7, MySQL, JavaScript, jQuery, Flutter."
-    ],
-    type: "work",
-  },
-  {
-    id: "6",
-    title: "Developer",
-    organization: "Digisalud - Venezuela",
-    period: "2017 - 2018",
-    description: [
-      "Developed a mobile app for offline data collection and synchronization in health surveys.",
-      "Created a web application for bulk uploads from Excel.",
-      "Technologies: Flutter, MySQL, PHP Native, JavaScript, jQuery."
-    ],
-    type: "work",
-  },
-  {
-    id: "7",
-    title: "Developer",
-    organization: "Gestión de Emprendimiento Deportivo (SportClub) - Argentina",
-    period: "2019 - 2021",
-    description: [
-      "Provided support and development for an internal payment and member registration system.",
-      "Technologies: Laravel 7, MySQL, MongoDB, Flutter, JavaScript, jQuery, NodeJS, React Native."
-    ],
-    type: "work",
-  },
-  {
-    id: "8",
-    title: "Full Stack Developer & Technical Leader",
-    organization: "Omnix Solutions - USA",
-    period: "2021 - 2022",
-    description: [
-      "Developed a web application for human resources management.",
-      "Migrated from Laravel to ReactJS and developed an API in NextJS.",
-      "Developed a document and contract creation system with digital signature for SinNorataria.",
-      "Developed a CRM for the distributor DonHuesillo.",
-      "Technologies: Laravel 7, MySQL, PHP 7.4, JavaScript, jQuery, ReactJS, NextJS, TypeORM, Express."
-    ],
-    type: "work",
-  },
-  {
-    id: "11",
-    title: "Full Stack Developer",
-    organization: "Smartway - Argentina",
-    period: "2022 - 2023",
-    description: [
-      "Developed an ecommerce in PrestaShop for the Ministry of Agriculture, Livestock and Fisheries of Argentina.",
-      "Developed a telemedicine system for government organizations and NGOs.",
-      "Technologies: ReactJS, React Native (Expo), MySQL, WebSockets, PHP, Symfony, TypeScript, Jitsi Meet, NestJS, NodeJS, MongoDB, Docker.",
-    ],
-    type: "work",
-  },
-  {
-    id: "12",
-    title: "Full Stack Developer",
-    organization: "Ceiboo Software Factory - Argentina",
-    period: "2023 - 2024",
-    description: [
-      "Developed an appointment scheduling system for the tourism department of Gualeguaychú.",
-      "Technologies: PHP Native, Laravel, NestJS, React, MySQL, React Native (Expo).",
-    ],
-    type: "work",
-  },
-  {
-    id: "13",
-    title: "Full Stack Developer",
-    organization: "Nexo IT - Chile",
-    period: "2024 - 2026",
-    description: [
-      "Maintaining and improving portals and mobile applications with Nuxt and React Native (Expo)",
-      "Integrating payment gateways (Transbank SDK, Stripe).",
-      "Developing ecommerce with ReactJS and backend in Nuxt (Vue2).",
-      "Developing a Python service to check customer account statuses and generate .zip files with text files.",
-      "Developing a microfrontend in Angular 18 to check customer account statuses.",
-      "Technologies: PHP Native, Nuxt 2, ReactJs, MySQL, React Native (Expo), Oracle, Python, Angular 18.",
-    ],
-    type: "work",
-  },
+  { id: "edu1", title: "Associate Degree in Informatics", organization: "Instituto Universitario de Tecnología de Administración Industrial (IUTA)", period: "2007 - 2010", description: [], type: "education" },
+  { id: "edu2", title: "High School Diploma in Science", organization: "Unidad Educativa Nacional Pedro Emilio Coll", period: "2000 - 2004", description: [], type: "education" },
+  { id: "datapronet", title: "Developer", organization: "Datapronet Consultores · Venezuela", period: "Jun 2011 - Dec 2014", description: ["Developed and supported modules for the Adaptapro system.", "Supported POS and SAP systems for Zara, Pull & Bear and Bershka stores.", "Technologies: DPXBASE, MySQL, SQL Server, VB6, VB.NET and C#."], type: "work" },
+  { id: "softech", title: "Developer", organization: "Softech Consultores · Venezuela", period: "Jan 2014 - Feb 2015", description: ["Developed and maintained features for Profit Plus.", "Created reports using Crystal Reports.", "Technologies: Visual FoxPro, C#, SQL Server and Crystal Reports."], type: "work" },
+  { id: "antilope", title: "Developer", organization: "Antilope Lab · Venezuela", period: "Mar 2016 - Jul 2020", description: ["Contributed to a national enrollment system for Fe y Alegría.", "Built an order-request app for food distributors.", "Developed an offline desktop medical-records app with synchronization.", "Technologies: PHP, Laravel, MySQL, JavaScript, jQuery and Flutter."], type: "work" },
+  { id: "digisalud", title: "Developer", organization: "DigiSalud · Venezuela", period: "Jan 2018 - Dec 2018", description: ["Developed a mobile app for offline health survey collection and synchronization.", "Created a web app for bulk Excel uploads.", "Technologies: Flutter, Dart, PHP, MySQL, JavaScript and jQuery."], type: "work" },
+  { id: "sportclub", title: "Developer", organization: "SportClub · Argentina", period: "Jan 2020 - Nov 2021", description: ["Supported and developed internal systems for payments and member registration.", "Technologies: Laravel 7, PHP, MySQL, MongoDB, JavaScript, jQuery, Node.js, React Native and Flutter."], type: "work" },
+  { id: "omnix", title: "Software Engineer · Project-Based Collaboration", organization: "Omnix Solutions · United States", period: "Dec 2020 - Oct 2022", description: ["Worked on projects modernizing a human-resources platform and evolving legacy Laravel systems toward React/Next.js interfaces and APIs.", "Also contributed to document generation and digital-signature workflows and a distributor CRM.", "Technologies used by project: Laravel, PHP, MySQL, JavaScript, React, Next.js, TypeORM and Express."], type: "work" },
+  { id: "freelance", title: "Full Stack Developer · Freelance", organization: "Independent", period: "Nov 2021 - Aug 2022", description: ["Built web solutions, CRM workflows and document automation, including document generation and electronic-signature flows."], type: "work" },
+  { id: "smartway", title: "Senior Software Developer", organization: "Smartway · Argentina", period: "Jan 2022 - Jun 2023", description: ["Developed ecommerce and telemedicine solutions.", "Implemented video consultations and real-time communication with WebRTC/Jitsi and WebSockets.", "Technologies: React, React Native, NestJS, Node.js, PHP, MySQL, MongoDB and Docker."], type: "work" },
+  { id: "ceiboo", title: "Full Stack Developer", organization: "Ceiboo Software Factory · Argentina", period: "Jun 2023 - Apr 2024", description: ["Developed an appointment scheduling system for the Tourism Department of Gualeguaychú."], type: "work" },
+  { id: "nexo", title: "Senior Full Stack Developer", organization: "Nexo-IT Consultores · Chile", period: "Apr 2024 - Jun 2026", description: ["Maintained and developed portals and mobile apps with React Native/Expo, React and Nuxt.", "Integrated payments with Stripe and Transbank.", "Developed Python services and Angular 18 microfrontends.", "Technologies used by project: React, React Native, Nuxt, PHP, Python, Angular, MySQL and Oracle."], type: "work" },
 ];
