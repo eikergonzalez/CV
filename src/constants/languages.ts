@@ -1,135 +1,77 @@
 import { Language, LanguageContent } from "../types";
 
-// English content
 export const en: LanguageContent = {
-  nav: {
-    home: "Home",
-    about: "About",
-    skills: "Skills",
-    projects: "Projects",
-    experience: "Experience",
-    contact: "Contact",
-  },
+  nav: { home: "Home", about: "About", skills: "Skills", projects: "Projects", experience: "Experience", contact: "Contact" },
   hero: {
     greeting: "Hello, I'm",
     name: "Eiker González",
-    title: "Full Stack Developer",
-    description: "I build exceptional digital experiences with clean, efficient code across multiple programming languages",
-    cta: "View My Work",
+    title: "Senior Full Stack Developer",
+    description: "Backend-focused software engineer building web, mobile, APIs and real-time applications with PHP, Laravel, Node.js, NestJS and React.",
+    cta: "Explore my work",
     downloadCvEn: "Download CV (EN)",
     downloadCvEs: "Download CV (ES)",
   },
   about: {
     title: "About Me",
     content: [
-      "Full Stack Developer with over 12 years of experience building highly scalable web, mobile, and desktop solutions. Specialized in React, React Native, Laravel, NestJS, WebSockets, and SQL/NoSQL databases. Extensive track record in critical projects across sectors such as healthcare, banking, government, education, and e-commerce in Latin America and the United States.",
+      "Software developer with 15+ years of professional experience, focused on backend development and full-stack delivery. I work with PHP and Laravel, Node.js and NestJS, React and Next.js, SQL databases, APIs, real-time communication and mobile applications.",
+      "I have contributed to products in healthcare, ecommerce, government, education, fitness and business operations, collaborating with distributed teams across Latin America and the United States. I value maintainable code, practical solutions and clear communication.",
     ],
   },
-  skills: {
-    title: "Skills & Technologies",
-    description: "My technical toolkit spans multiple domains, allowing me to tackle diverse challenges.",
-  },
+  skills: { title: "Technical Skills", description: "Technologies and tools I have used across professional projects, grouped by area." },
   projects: {
-    title: "Featured Projects",
-    description: "A selection of my recent work across different platforms and technologies.",
+    title: "Selected Projects",
+    description: "Examples of products and systems I have contributed to throughout my career.",
     viewProject: "View Project",
     sourceCode: "Source Code",
   },
-  experience: {
-    title: "Experience & Education",
-    education: "Education",
-    work: "Work Experience",
-  },
+  experience: { title: "Experience & Education", education: "Education", work: "Work Experience" },
   contact: {
-    title: "Get In Touch",
-    description: "Interested in working together? Feel free to reach out.",
-    formName: "Name",
-    formEmail: "Email",
-    formMessage: "Message",
-    formSubmit: "Send Message",
-    formSuccess: "Message sent successfully!",
-    phone: "Phone",
-    location: "Location",
-    connect: "Connect with me",
+    title: "Contact",
+    description: "Have a project or opportunity in mind? I'd be glad to hear from you.",
+    formName: "Name", formEmail: "Email", formMessage: "Message", formSubmit: "Send Message",
+    formSuccess: "Your message was sent successfully!", phone: "Phone", location: "Location", connect: "Connect with me",
   },
-  footer: {
-    rights: "All rights reserved",
-  },
-  info: {
-    email: "support@eikergonzalez.com",
-    phone: "+58 (412) 574-6623",
-    location: "Miranda, Venezuela",
-  },
-  others: {
-    other1: "Configuration of Linux servers, mail servers, web.",
-    other2: "Under construction",
-  }
+  footer: { rights: "All rights reserved" },
+  info: { email: "support@eikergonzalez.com", phone: "+58 (412) 574-6623", location: "Miranda, Venezuela" },
+  others: { other1: "Linux server administration, web servers and mail servers." },
 };
 
-// Spanish content
 export const es: LanguageContent = {
-  nav: {
-    home: "Inicio",
-    about: "Sobre mí",
-    skills: "Habilidades",
-    projects: "Proyectos",
-    experience: "Experiencia",
-    contact: "Contacto",
-  },
+  nav: { home: "Inicio", about: "Sobre mí", skills: "Habilidades", projects: "Proyectos", experience: "Experiencia", contact: "Contacto" },
   hero: {
     greeting: "Hola, soy",
     name: "Eiker González",
-    title: "Full Stack Developer",
-    description: "Construyo experiencias digitales excepcionales con código limpio y eficiente en múltiples lenguajes de programación.",
-    cta: "Ver mi trabajo",
+    title: "Senior Full Stack Developer",
+    description: "Desarrollador enfocado en backend, creando aplicaciones web, móviles, APIs y soluciones en tiempo real con PHP, Laravel, Node.js, NestJS y React.",
+    cta: "Explorar mi trabajo",
     downloadCvEn: "Descargar CV (EN)",
     downloadCvEs: "Descargar CV (ES)",
   },
   about: {
-    title: "Sobre Mí",
+    title: "Sobre mí",
     content: [
-      "Desarrollador Full Stack con más de 12 años de experiencia creando soluciones web, móviles y de escritorio altamente escalables. Especializado en React, React Native, Laravel, NestJS, WebSockets y bases de datos SQL/NoSQL. Con amplia trayectoria en proyectos críticos en sectores como salud, banca, gobierno, educación y comercio electrónico en Latinoamérica y Estados Unidos.",
+      "Desarrollador de software con más de 15 años de experiencia profesional, enfocado en backend y desarrollo full stack. Trabajo con PHP y Laravel, Node.js y NestJS, React y Next.js, bases de datos SQL, APIs, comunicación en tiempo real y aplicaciones móviles.",
+      "He participado en productos de salud, comercio electrónico, gobierno, educación, fitness y gestión empresarial, colaborando con equipos distribuidos en Latinoamérica y Estados Unidos. Me enfoco en código mantenible, soluciones prácticas y comunicación clara.",
     ],
   },
-  skills: {
-    title: "Habilidades y Tecnologías",
-    description: "Mi conjunto de herramientas técnicas abarca múltiples dominios, lo que me permite abordar diversos desafíos.",
-  },
+  skills: { title: "Habilidades Técnicas", description: "Tecnologías y herramientas utilizadas en proyectos profesionales, agrupadas por área." },
   projects: {
-    title: "Proyectos Destacados",
-    description: "Una selección de mi trabajo reciente en diferentes plataformas y tecnologías.",
+    title: "Proyectos Seleccionados",
+    description: "Ejemplos de productos y sistemas en los que he participado a lo largo de mi carrera.",
     viewProject: "Ver Proyecto",
     sourceCode: "Código Fuente",
   },
-  experience: {
-    title: "Experiencia y Educación",
-    education: "Educación",
-    work: "Experiencia Laboral",
-  },
+  experience: { title: "Experiencia y Educación", education: "Educación", work: "Experiencia Laboral" },
   contact: {
-    title: "Contactar",
-    description: "¿Interesado en trabajar juntos? No dudes en contactarme.",
-    formName: "Nombre",
-    formEmail: "Correo",
-    formMessage: "Mensaje",
-    formSubmit: "Enviar Mensaje",
-    formSuccess: "¡Mensaje enviado con éxito!",
-    phone: "Teléfono",
-    location: "Ubicación",
-    connect: "Conéctate conmigo",
+    title: "Contacto",
+    description: "¿Tienes un proyecto u oportunidad en mente? Me encantaría conversar.",
+    formName: "Nombre", formEmail: "Correo", formMessage: "Mensaje", formSubmit: "Enviar Mensaje",
+    formSuccess: "¡Tu mensaje fue enviado correctamente!", phone: "Teléfono", location: "Ubicación", connect: "Conéctate conmigo",
   },
-  footer: {
-    rights: "Todos los derechos reservados",
-  },
-  info: {
-    email: "support@eikergonzalez.com",
-    phone: "+58 (412) 574-6623",
-    location: "Miranda, Venezuela",
-  },
-  others: {
-    other1: "Configuración de servidores Linux, servidores de correo, web.",
-    other2: "En construcción",
-  }
+  footer: { rights: "Todos los derechos reservados" },
+  info: { email: "support@eikergonzalez.com", phone: "+58 (412) 574-6623", location: "Miranda, Venezuela" },
+  others: { other1: "Administración de servidores Linux, web y correo." },
 };
 
 export const languageOptions = [
@@ -139,13 +81,4 @@ export const languageOptions = [
 
 export type LanguageCode = typeof languageOptions[number]['code'];
 
-export const getLanguageContent = (code: Language): LanguageContent => {
-  switch (code) {
-    case 'en':
-      return en;
-    case 'es':
-      return es;
-    default:
-      return en;
-  }
-};
+export const getLanguageContent = (code: Language): LanguageContent => code === 'es' ? es : en;
