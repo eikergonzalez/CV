@@ -20,14 +20,14 @@ const ExperienceSection: React.FC = () => {
 
   const setDataEn = () => {
     const workItems = timelineItemsEn.filter(item => item.type === 'work').sort((a, b) => {
-      const yearA = parseInt(a.period.split(' - ')[0]);
-      const yearB = parseInt(b.period.split(' - ')[0]);
+      const yearA = parseInt(a.period.match(/\\d{4}/)?.[0] ?? '0');
+      const yearB = parseInt(b.period.match(/\\d{4}/)?.[0] ?? '0');
       return yearB - yearA;
     });
     
     const educationItems = timelineItemsEn.filter(item => item.type === 'education').sort((a, b) => {
-      const yearA = parseInt(a.period.split(' - ')[0]);
-      const yearB = parseInt(b.period.split(' - ')[0]);
+      const yearA = parseInt(a.period.match(/\\d{4}/)?.[0] ?? '0');
+      const yearB = parseInt(b.period.match(/\\d{4}/)?.[0] ?? '0');
       return yearB - yearA;
     });
 
@@ -37,14 +37,14 @@ const ExperienceSection: React.FC = () => {
 
   const setDataEs = () => {
     const workItems = timelineItemsEs.filter(item => item.type === 'work').sort((a, b) => {
-      const yearA = parseInt(a.period.split(' - ')[0]);
-      const yearB = parseInt(b.period.split(' - ')[0]);
+      const yearA = parseInt(a.period.match(/\\d{4}/)?.[0] ?? '0');
+      const yearB = parseInt(b.period.match(/\\d{4}/)?.[0] ?? '0');
       return yearB - yearA;
     });
     
     const educationItems = timelineItemsEs.filter(item => item.type === 'education').sort((a, b) => {
-      const yearA = parseInt(a.period.split(' - ')[0]);
-      const yearB = parseInt(b.period.split(' - ')[0]);
+      const yearA = parseInt(a.period.match(/\\d{4}/)?.[0] ?? '0');
+      const yearB = parseInt(b.period.match(/\\d{4}/)?.[0] ?? '0');
       return yearB - yearA;
     });
 
