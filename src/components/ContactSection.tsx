@@ -57,18 +57,7 @@ export const ContactSection: React.FC = () => {
     if (!validate()) return;
     
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
-      setFormState({ name: '', email: '', message: '' });
-      
-      // Reset submission status after 5 seconds
-      setTimeout(() => {
-        setIsSubmitted(false);
-      }, 5000);
-    }, 1500);
+    setErrors({});
 
     try {
       const response = await fetch('https://api.eikergonzalez.com/api/contact', {
@@ -77,19 +66,17 @@ export const ContactSection: React.FC = () => {
         body: JSON.stringify(formState),
       });
 
-      if (response.ok) {
-        setIsSubmitting(false);
-        setIsSubmitted(true);
-        setFormState({ name: '', email: '', message: '' });
-        setTimeout(() => setIsSubmitted(false), 5000);
-      } else {
-        setIsSubmitting(false);
-        setErrors({ form: 'Error enviando el mensaje. Intenta de nuevo.' });
+      if (!response.ok) {
+        throw new Error('Contact request failed');
       }
-    } catch (error) {
-      console.log(error);
+
+      setIsSubmitted(true);
+      setFormState({ name: '', email: '', message: '' });
+      window.setTimeout(() => setIsSubmitted(false), 5000);
+    } catch {
+      setErrors({ form: 'Error sending message. Please try again.' });
+    } finally {
       setIsSubmitting(false);
-      setErrors({ form: 'Error enviando el mensaje. Intenta de nuevo.' });
     }
   };
 
