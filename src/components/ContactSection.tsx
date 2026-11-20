@@ -216,6 +216,8 @@ export const ContactSection: React.FC = () => {
                   {errors.message && <p className="mt-1 text-sm text-red-600 dark:text-red-400">{errors.message}</p>}
                 </div>
 
+                {errors.form && <p role="alert" className="text-sm text-red-600 dark:text-red-400">{errors.form}</p>}
+
                 <button
                   type="submit"
                   disabled={isSubmitting}
